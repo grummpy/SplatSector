@@ -1,0 +1,11 @@
+{
+  "name": "splatsector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Splat Sector — a local 4-player ink arena.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:server": "python3 tests/server_smoke.py"
+  }
+}
